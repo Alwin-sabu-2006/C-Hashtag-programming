@@ -1,0 +1,26 @@
+int[] numbers = new int[11];
+    numbers[0]=0;
+    numbers[1] = 1;
+    numbers[2] = 2;
+    numbers[3] = 3;
+    numbers[4] = 4;
+    numbers[5] = 5;
+    numbers[6] = 6;
+    numbers[7] = 7;
+    numbers[8] = 8;
+    numbers[9] = 9;
+    numbers[10] = 10;
+
+Console.WriteLine(numbers[0]);
+Console.WriteLine(numbers[1]);
+Console.WriteLine(numbers[2]);
+Console.WriteLine(numbers[3]);
+Console.WriteLine(numbers[4]);
+Console.WriteLine(numbers[5]);
+Console.WriteLine(numbers[6]);
+Console.WriteLine(numbers[7]);
+Console.WriteLine(numbers[8]);
+Console.WriteLine(numbers[9]);
+Console.WriteLine(numbers[10]);
+int len = numbers.Length;
+Console.WriteLine("The number of elements is:"+len);
