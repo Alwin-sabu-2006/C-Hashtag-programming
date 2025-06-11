@@ -1,0 +1,3 @@
+string l = "a";
+string b = "A";
+Console.WriteLine(l.Trim().ToUpper()==b.Trim().ToUpper());
